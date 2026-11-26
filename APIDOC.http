@@ -1,0 +1,120 @@
+###
+POST http://127.0.0.1:8000/bmi/
+Content-Type: application/json
+
+{
+    "height":160,
+    "weight":61
+}
+
+###
+POST http://127.0.0.1:8000/age/
+Content-Type: application/json
+
+{
+    "current_year":2026,
+    "birth_year":1972
+}
+
+###
+POST http://127.0.0.1:8000/percentage/
+Content-Type: application/json
+
+{
+    "obtained_mark":450,
+    "total_mark":500
+}
+
+###
+POST http://127.0.0.1:8000/simple_interest/
+Content-Type: application/json
+
+{
+    "principal":10000,
+    "rate":5,
+    "time":2
+}
+
+###
+POST http://127.0.0.1:8000/electricity_bill/
+Content-Type: application/json
+
+{
+    "units":450,
+    "rate":5
+}
+
+
+###
+POST http://127.0.0.1:8000/discount/
+Content-Type: application/json
+
+{
+ "price": 2000,
+ "discount_percentage": 10
+ }
+
+###
+POST http://127.0.0.1:8000/profit/
+Content-Type: application/json
+
+ {
+ "cost_price": 500,
+ "selling_price": 650
+ }
+###
+POST http://127.0.0.1:8000/salary/
+Content-Type: application/json
+
+{
+ "basic_salary": 30000,
+ "bonus": 5000,
+ "deduction": 2000
+ }
+
+### 
+POST http://127.0.0.1:8000/time/
+Content-Type: application/json
+
+{
+    "hours": 3
+}
+
+### 
+POST http://127.0.0.1:8000/fuel_cost/
+Content-Type: application/json
+
+{
+    "distance": 300,
+    "mileage": 15,
+    "fuel_price": 105
+}
+
+### 
+POST http://127.0.0.1:8000/product_profit/
+Content-Type: application/json
+
+{
+    "cost_price": 800,
+    "selling_price": 1000,
+    "quantity": 25
+}
+
+### 
+POST http://127.0.0.1:8000/work_salary/
+Content-Type: application/json
+
+{
+    "hours_worked": 180,
+    "regular_hours": 160,
+    "hourly_rate": 200,
+    "overtime_rate": 300
+}
+
+### 
+POST http://127.0.0.1:8000/age_details/
+Content-Type: application/json
+
+{
+    "age": 25
+}
